@@ -96,15 +96,16 @@ Apresentação de resultados de forma técnica e acessível
 
 Uso integrado de Git, GitHub e VS Code
 
-Contato 😄
-Marcia Weyne
-📫 mbweyne@gmail.com
+## 😄 Contato  
+
+Marcia Weyne  
+📫 mbweyne@gmail.com  
 
 [![GitHub](https://img.shields.io/badge/-GitHub-000?style=flat-square&logo=github)](https://github.com/mbweyne/P10_Poco_Petroleo_Oilygiant)  
+[https://github.com/mbweyne/P10_Poco_Petroleo_Oilygiant](https://github.com/mbweyne/P10_Poco_Petroleo_Oilygiant)
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcia-bayardino-weyne)
-
-
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcia-bayardino-weyne)  
+[https://www.linkedin.com/in/marcia-bayardino-weyne](https://www.linkedin.com/in/marcia-bayardino-weyne)
 
 
 
