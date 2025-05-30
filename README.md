@@ -1,11 +1,16 @@
 ![Banner do Projeto](banner.png)
 
 📊 Projeto 10 – Modelagem de Risco e Lucro na Exploração de Petróleo  
-Autora: Marcia Bayardino Weyne  
+Autora: Marcia Weyne  
 Data: 2025
 
 📝 Descrição do Projeto  
-Este projeto, desenvolvido para a companhia fictícia OilyGiant, visa aplicar técnicas de aprendizado de máquina para prever reservas de petróleo e identificar as regiões com maior retorno financeiro na abertura de novos poços.
+Este projeto, desenvolvido para a empresa fictícia OilyGiant, tem como objetivo aplicar modelos de aprendizado de máquina para:
+
+📍 Prever o volume de reservas de petróleo em novos poços  
+📍 Selecionar os melhores poços com base no lucro estimado  
+📍 Escolher a região com maior retorno esperado  
+📍 Avaliar riscos por meio de Bootstrapping
 
 📑 Tabela de Conteúdo  
 - Objetivo  
@@ -14,75 +19,90 @@ Este projeto, desenvolvido para a companhia fictícia OilyGiant, visa aplicar t�
 - Metodologia  
 - Como Executar o Projeto  
 - Aprendizados  
-- Contato  
+- Contato
 
-🎯 Objetivo  
-Construir um modelo preditivo de volume de reservas de petróleo a partir de características geológicas e selecionar as regiões com maior potencial de lucro, utilizando técnicas de modelagem e simulação de risco com Bootstrapping.
+---
 
-🏁 Resultados  
-📈 Modelo de Regressão Linear com bom desempenho preditivo  
-💰 Cálculo do lucro esperado e risco por região  
-📊 Simulação de 1000 amostras para avaliar a distribuição de lucro (Bootstrapping)  
-🥇 Seleção da região com maior potencial de retorno ajustado ao risco  
+## Objetivo 🏔  
+Identificar os locais mais promissores para perfuração de novos poços de petróleo, maximizando o lucro e minimizando os riscos, com base em dados geológicos históricos de três regiões.
 
-🧰 Ferramentas Utilizadas  
+---
+
+## Resultados 🏁  
+📈 Modelo de Regressão preditiva treinado com bom desempenho  
+💰 Identificação dos 200 poços mais lucrativos em cada região  
+📊 Região com maior lucro médio estimado selecionada  
+🧪 Análise de risco com Bootstrapping validando a robustez do investimento
+
+---
+
+## Ferramentas Utilizadas 🧰  
 - Caderno de desenvolvimento: Jupyter Notebook  
 - Linguagem: Python  
 - Bibliotecas: pandas • numpy • scikit-learn • matplotlib • seaborn  
+- Ambiente: VS Code
 
-🔍 Metodologia  
-1. **Preparação dos Dados**  
-   - Leitura dos dados das três regiões (geo_data_0, geo_data_1, geo_data_2)  
-   - Análise exploratória e verificação de correlação  
+---
+
+## Metodologia 🔍  
+1. **Leitura e Análise dos Dados**  
+   - Carregamento dos dados das três regiões  
+   - Exploração e verificação de correlações
 
 2. **Modelagem Preditiva**  
-   - Treinamento de modelo de regressão linear para prever o volume de reservas  
+   - Treinamento de modelo de regressão para estimar reservas  
+   - Seleção dos poços mais promissores por região
 
-3. **Seleção de Poços Promissores**  
-   - Seleção dos 200 poços com maiores valores preditos em cada região  
+3. **Cálculo de Lucro**  
+   - Estimativa do lucro de cada poço com base nos custos e ganhos médios  
+   - Comparação das regiões para determinar a mais lucrativa
 
-4. **Análise de Risco e Lucro**  
-   - Cálculo de lucro com base em valores reais e preditos  
-   - Simulação com Bootstrapping (1000 iterações) para estimar risco e lucro  
+4. **Análise de Risco (Bootstrapping)**  
+   - Simulação de mil amostras aleatórias  
+   - Estimativa da distribuição de lucro e análise de risco
 
-💽 Como Executar o Projeto  
-Pré-requisitos:  
+---
+
+## Como Executar o Projeto 💽  
+**Pré-requisitos:**  
 - Python 3.10+  
-- Jupyter Notebook  
+- Jupyter Notebook
 
-Instalar dependências:  
+Instale as dependências com:  
 ```bash
 pip install -r requirements.txt
-Executar:
+Execute o notebook com:
 
 bash
 Copiar
 Editar
 jupyter notebook
-Abra o notebook projeto_poco_petroleo_oilygiant_modelagem_risco_lucro.ipynb e siga a ordem das células.
+Abra Projeto10_Pocos_Petroleo_Modelagem.ipynb e siga a ordem das células.
 
-📝 Aprendizados
+Aprendizados 📝
 Técnicos:
 
-Treinamento de modelos preditivos com dados tabulares
+Modelagem de regressão com dados reais
 
-Análise de risco com Bootstrapping
+Análise de lucro e risco com simulações de bootstrapping
 
-Seleção de amostras mais lucrativas com base em predições
+Seleção ótima baseada em previsão e viabilidade econômica
 
 Profissionais:
 
-Documentação técnica de projetos
+Estruturação de projeto de Data Science completo
 
-Estruturação de notebooks e pastas para GitHub
+Apresentação de resultados de forma técnica e acessível
 
-Uso integrado de Git, VS Code e GitHub
+Uso integrado de Git, GitHub e VS Code
 
-😄 Contato
+Contato 😄
+Marcia Weyne
+📫 mbweyne@gmail.com
 
-[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github)](https://github.com/mbweyne/P11_ML_Seguro)
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=flat-square&logo=github)](https://github.com/mbweyne/P10_Poco_Petroleo_Oilygiant)
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcia-bayardino-weyne)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcia-bayardino-weyne)
 
 
 
